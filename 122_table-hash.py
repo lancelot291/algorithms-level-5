@@ -1,4 +1,5 @@
 def solution(data, col, row_begin, row_end):
+    col -= 1
     row_begin -= 1
     row_end -= 1
     for i in range(len(data)):
@@ -26,6 +27,3 @@ col = 2
 row_begin = 2
 row_end = 3
 print(solution(data, col, row_begin, row_end)) 
-            
-print(hello world)
-    
